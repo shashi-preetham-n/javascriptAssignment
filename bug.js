@@ -64,7 +64,7 @@ For each of the following assignments, there is one intentional error. Your task
 6. **Basic API Result Filter (Error: Incorrect comparison operator)**
    ```javascript
    function filterHotDays(temperatures) {
-     return temperatures.filter(temp => temp >= 30);
+     return temperatures.filter(temp => temp <= 30);
    }
 
    const temps = [28, 32, 30, 25, 35];
